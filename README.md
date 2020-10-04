@@ -9,7 +9,8 @@ These script files are made to get things to work for you on some of the most po
 - Arch Linux/Manjaro.
 - Debian Buster/LMDE 4/SparkyLinux Nibiru.
 
-#***How to use this set of scripts***
+***How to use this set of scripts***
+
 Open GitHub and clone this repository as a ZIP file.
 Go to your Downloads folder and unzip the file.
 Open a terminal window.
@@ -18,7 +19,8 @@ Type in the following command(s):
 `sh Downloads/”your distribution of choice”/”your distribution of choice in lowercase”-nvidia.sh` if you have an NVIDIA graphics card.
 `sh Downloads/”your distribution of choice”/”your distribution of choice in lowercase”-vietnamese.sh’ if you need to type Vietnamese. Linux Mint users do not need to do this as you can go to the start menu and type in “Input Methods” and follow the procedure given by the Linux Mint team.
 
-#***What actions are done***
+***What actions are done***
+
 Removes Firefox, Libreoffice. Updates the system.
 Installs these apps sorted by category:
 General apps: Chromium, FreeOffice, Zoom, Spotify, Qbittorrent, Viber, Telegram.

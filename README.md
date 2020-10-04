@@ -2,7 +2,7 @@
  
 These script files are made to get things to work for you on some of the most popular Linux distributions. This includes Arch Linux and its derivatives; Debian and its derivatives; Fedora; Manjaro; OpenSUSE and its derivatives; and Ubuntu and its derivatives.
 
-#***Requirements***
+***Requirements***
 - Fedora 32/33 Beta
 - Ubuntu 20.04/Linux Mint 20
 - OpenSUSE Leap/Tumbleweed

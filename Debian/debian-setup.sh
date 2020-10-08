@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo apt update && sudo apt upgrade -y
 sudo apt remove firefox* libreoffice* -y
 wget https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb
@@ -22,6 +22,9 @@ rm steam_latest.deb
 wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb
 sudo dpkg -i steam_latest.deb
 rm steam_latest.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-*.deb
+rm google-*.deb
 sudo apt install -fy
 sudo apt install gnupg2 software-properties-common -y
 echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
@@ -31,10 +34,7 @@ wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 sudo add-apt-repository https://dl.winehq.ortg/wine-builds/debian/
 wget -O- -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10/Release.key | sudo apt-key add -    
 echo "deb http://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10 ./" | sudo tee /etc/apt/sources.list.d/wine-obs.list
-curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt install --install-recommends winehq-stable -y
-sudo apt install chromium neofetch lutris obs-studio kdenlive gimp krita blender inkscape audacity spotify-client -y
+sudo apt install wine neofetch lutris obs-studio kdenlive gimp krita blender inkscape audacity spotify-client -y
 neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

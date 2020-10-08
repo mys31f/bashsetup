@@ -30,3 +30,6 @@ Creative related apps: Kdenlive, GIMP, Krita, Blender, Inkscape, Audacity.
 NVIDIA drivers for the NVIDIA script.
 Ibus-bamboo for typing Vietnamese, and subsequently the Ibus engine. 
 Distribution specific apps: RPMFusion and UnitedRPM for Fedora, yay for Arch Linux and Manjaro.
+
+
+**NOTICE**: Chrome will be installed instead of Chromium on Debian to maintain Google login capabilities.

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 sudo pacman -Syu --noconfirm
 sudo pacman -R firefox* libreoffice* --noconfirm
 sudo pacman -S neofetch telegram-desktop chromium qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfimr

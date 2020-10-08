@@ -24,12 +24,16 @@ Type in the following command(s):
 
 Removes Firefox, Libreoffice. Updates the system.
 Installs these apps sorted by category:
-General apps: Chromium, FreeOffice, Zoom, Spotify, Qbittorrent, Viber, Telegram.
+General apps: Chromium*, FreeOffice, Zoom, Spotify, Qbittorrent, Viber, Telegram.
 Gaming related apps: Steam, Lutris (and subsequently Wine), Discord, OBS Studio.
 Creative related apps: Kdenlive, GIMP, Krita, Blender, Inkscape, Audacity.
 NVIDIA drivers for the NVIDIA script.
 Ibus-bamboo for typing Vietnamese, and subsequently the Ibus engine. 
 Distribution specific apps: RPMFusion and UnitedRPM for Fedora, yay for Arch Linux and Manjaro.
 
+<<<<<<< Updated upstream
 
 **NOTICE**: Chrome will be installed instead of Chromium on Debian to maintain Google login capabilities.
+=======
+* Chrome will be installed instead of Chromium due to deletion of Google login services on Debian.
+>>>>>>> Stashed changes

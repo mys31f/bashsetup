@@ -31,9 +31,5 @@ NVIDIA drivers for the NVIDIA script.
 Ibus-bamboo for typing Vietnamese, and subsequently the Ibus engine. 
 Distribution specific apps: RPMFusion and UnitedRPM for Fedora, yay for Arch Linux and Manjaro.
 
-<<<<<<< Updated upstream
 
 **NOTICE**: Chrome will be installed instead of Chromium on Debian to maintain Google login capabilities.
-=======
-* Chrome will be installed instead of Chromium due to deletion of Google login services on Debian.
->>>>>>> Stashed changes

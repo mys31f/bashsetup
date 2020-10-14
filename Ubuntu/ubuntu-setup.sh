@@ -7,6 +7,9 @@ curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key 
 sudo apt-add-repository "deb http://repository.spotify.com stable non-free"
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 4773BD5E130D1D45
 sudo apt update & sudo apt upgrade -y
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 sudo dpkg -i viber.deb
 rm viber.deb
@@ -23,6 +26,6 @@ wget https://d11yldzmag5yn.cloudfront.net/prod/5.3.469451.0927/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 rm zoom_amd64.deb
 sudo apt install -fy
-sudo apt install chromium-browser spotify-client qbittorrent telegram-desktop wine lutris obs-studio kdenlive gimp krita blender inkscape audacity neofetch -y
+sudo apt install spotify-client qbittorrent telegram-desktop wine lutris obs-studio kdenlive gimp krita blender inkscape audacity neofetch -y
 neofetch 
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

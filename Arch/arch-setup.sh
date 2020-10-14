@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman -Syu --noconfirm
 sudo pacman -R firefox* libreoffice* --noconfirm
-sudo pacman -S neofetch telegram-desktop chromium qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfimr
+sudo pacman -S neofetch telegram-desktop qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfimr
 #Installs yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -27,7 +27,11 @@ git clone https://aur.archlinux.org/viber.git
 cd viber
 makepkg -si
 cd
-#Installs WhatsApp
+#Installs Chrome
+git clone https://aur.archlinux.org/google-chrome.git
+cd google-chrome
+makepkg -si
+cd
 rm -r yay
 rm -r freeoffice
 rm -r zoom

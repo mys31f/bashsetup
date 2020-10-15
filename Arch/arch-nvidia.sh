@@ -1,7 +1,11 @@
 #!/bin/bash
 function install1() {
-    echo ""
-	sudo pacman -S --noconfirm nvidia
+    echo ""\
+    sudo pacman -S --noconfirm nvidia
+        if  [ $? != 0 ]; then
+            echo "Something might have gone wrong, please check "
+            exit
+        fi 
     echo "The PC will restart in 30 seconds for the drivers to apply. Please wait."
     sleep 30
     reboot

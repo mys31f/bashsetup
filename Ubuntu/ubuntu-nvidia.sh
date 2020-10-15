@@ -10,6 +10,9 @@ function ubuntu() {
     echo "Please take note of the driver that will be installed on the system. The installation will begin in 30 seconds."
     sleep 30
     sudo ubuntu-drivers autoinstall 
+    echo "The PC will reboot in 30 seconds for the drivers to apply. Please wait."
+    sleep 30
+    reboot
     exit
 }
 menu() {

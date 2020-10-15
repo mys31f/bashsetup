@@ -2,12 +2,18 @@
 function install1() {
     echo ""
 	sudo pacman -S --noconfirm nvidia
+    echo "The PC will restart in 30 seconds for the drivers to apply. Please wait."
+    sleep 30
+    reboot
 	echo ""
     exit
 }
 function install2() {
     echo ""
 	sudo pacman -S --nonconfirm nvidia-lts
+    echo "The PC will restart in 30 seconds for the drivers to apply. Please wait."
+    sleep 30
+    reboot
     echo ""
     exit
 }

@@ -3,5 +3,3 @@ sudo zypper addrepo https://download.opensuse.org/repositories/home:lamlng/openS
 sudo zypper refresh
 sudo zypper install ibus-bamboo
 echo "Please check your autostart settings and add in this command `ibus-daemon -drx`. This will autostart your Ibus daemon and then you should change your Ibus settings to have ibus-bamboo enabled."
-
-

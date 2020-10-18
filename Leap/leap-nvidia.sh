@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "This set of scripts is only in testing. Please help me with any problems that may arise from the installation."
 sudo zypper addrepo --refresh 'https://download.nvidia.com/opensuse/leap/$releasever' NVIDIA
 sudo zypper install x11-video-nvidiaG05
 echo "The PC will restart in 30 seconds for the drivers to apply. Please wait."

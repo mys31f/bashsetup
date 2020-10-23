@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo pacman -Syu --noconfirm
-sudo pacman -R firefox* libreoffice* --noconfirm
-sudo pacman -S neofetch telegram-desktop qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfimr
+sudo pacman -R firefox libreoffice-fresh --noconfirm
+sudo pacman -S neofetch telegram-desktop qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfirm
 #Installs yay
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -32,10 +32,10 @@ git clone https://aur.archlinux.org/google-chrome.git
 cd google-chrome
 makepkg -si
 cd
-rm -r yay
-rm -r freeoffice
-rm -r zoom
-rm -r spotify
-rm -r viber
+rm -rf yay
+rm -rf freeoffice
+rm -rf zoom
+rm -rf spotify
+rm -rf viber
 neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

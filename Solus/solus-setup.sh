@@ -15,4 +15,5 @@ tar -xvzf softmaker-freeoffice-978-amd64.tgz
 cd softmaker-freeoffice-978-amd64
 ./installfreeoffice
 rm -r softmaker-freeoffice-978-amd64.tgz freeoffice2018.tar.lzma installfreeoffice
+neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

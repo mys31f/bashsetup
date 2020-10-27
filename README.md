@@ -20,7 +20,7 @@ The only thing you need is Ruby if you want to not do anything besides picking. 
 
 ***How to use this set of scripts***
 
-Clone this repository as a ZIP file as above. For ease of choice, there i
+Clone this repository as a ZIP file as above. For ease of choice, there is a Ruby script written to reduce as much reading as possible.
 
 ***What actions are done***
 

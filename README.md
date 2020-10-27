@@ -30,6 +30,8 @@ Clone this repository as a ZIP file as above. For ease of choice, there i
         * Communications: Viber, Discord, Zoom
         * Gaming: Lutris, Steam
         * Office suite: FreeOffice. Apache OpenOffice can be substituted if wanted. 
+        * Content creation apps: Kdenlive, GIMP, Krita, Inkscape
+        * Other apps: Neofetch, Wine, Qbittorrent.
 
 
 

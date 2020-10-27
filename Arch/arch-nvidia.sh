@@ -3,7 +3,7 @@ function install1() {
     echo ""\
     sudo pacman -S --noconfirm nvidia
         if  [ $? != 0 ]; then
-            echo "Something might have gone wrong, please check "
+            echo "Something might have gone wrong, please check your hardware"
             exit
         fi 
     echo "The PC will restart in 30 seconds for the drivers to apply. Please wait."

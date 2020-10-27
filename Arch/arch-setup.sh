@@ -21,6 +21,10 @@ cd
 git clone https://aur.archlinux.org/spotify.git
 cd spotify
 makepkg -si
+    if [ $? != 0]
+        echo "We might have a broken repository here on our hands so please notify the maintainers on the Arch User Repository if this happens. A different version of Spotify will be installed instead in this case."
+        sudo pacman -S --noconfirm flatpak
+        sudo flatpak install flathub com.spotify.Client
 cd
 #Installs Viber
 git clone https://aur.archlinux.org/viber.git

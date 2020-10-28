@@ -49,6 +49,7 @@ answer = gets.chomp
                 `sh ./Fedora/fedora-nvidia.sh`
             elsif answer_fedora == "3"
                 `sh ./Fedora/fedora-vietnamese.sh`
+                output =  system(``)
             end
     elsif answer == "4"
         puts "What do you want to do? "

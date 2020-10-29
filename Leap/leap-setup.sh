@@ -42,4 +42,4 @@ rm zoom_openSUSE_x86_64.rpm
 sudo zypper install flatpak --non-interactive
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install com.spotify.Client
-sudo zypper install qbittorrent telegram-desktop steam lutris wine discord obs-studio gimp krita blender inkscape audacity -y
+sudo zypper install qbittorrent telegram-desktop steam lutris wine discord obs-studio gimp krita blender inkscape audacity neofetch 

@@ -1,19 +1,77 @@
-puts "What Linux distribution/derivative is currently on your system? Type the number according to the distribution currently on your PC."
-    puts "1. Arch Linux/Manjaro"
-    puts "2. Debian/Linux Mint Debian Edition/SparkyLinux"
+puts "What is your distribution at the moment?"
+    puts "1. Arch Linux & its derivatives"
+    puts "2. Debian & its derivatives excluding Ubuntu"
     puts "3. Fedora"
-    puts "4. OpenSUSE Leap"
-    puts "5. Solus"
-    puts "6. Ubuntu/Linux Mint/Pop!OS"
-    puts "7. Exit"
+    puts "4. Solus"
+    puts "5. Ubuntu & its derivatives"
 puts "Your answer: "
-answer = gets.chomp
-    if answer == "1"
-        puts "What do you want to do? "
-            puts "1. Setup the applications"
+answer_1 = gets.chomp
+    if answer_1 == 2
+        puts "What do you want to do with the script?"
+            puts "1. Setup applications"
             puts "2. Setup NVIDIA drivers"
             puts "3. Setup Vietnamese typing"
         puts "Your answer: "
+<<<<<<< HEAD
+            answer_Arch = gets.chomp
+                if  answer_Arch == 1
+                    
+                elsif answer_Arch == 2
+
+                elsif answer_Arch == 3
+
+                else
+                
+                end               
+    elsif answer_1 == 2
+        puts "What do you want to do with the script?"
+            answer_Debian = gets.chomp
+                if answer_Debian == 1
+                    
+                elsif answer_Debian == 2
+                    
+                elsif answer_Debian == 3
+                    
+                else
+
+                end
+    elsif answer_1 == 3
+        puts "What do you want to do with the script?"
+            answer_Fedora = gets.chomp
+                if 
+                    
+                elsif 
+                   
+                elsif
+
+                else
+                    
+                end
+    elsif answer_1 == 4
+        puts "What do you want to do with the script?"
+            answer_Solus = gets.chomp
+                if 
+                    
+                elsif 
+                   
+                elsif
+
+                else
+                    
+                end
+    elsif answer_1 == 5
+        puts "What do you want to do with the script?"
+            answer_Ubuntu = gets.chomp
+                if 
+                    
+                elsif 
+                    
+                elsif
+
+                else
+                    
+                end
+=======
         answer_arch = gets.chomp
             if answer_arch == "1"
                 `sh ./Arch/arch-setup.sh`
@@ -100,8 +158,12 @@ answer = gets.chomp
             end
     elsif answer == "7"
         `exit`
+>>>>>>> master
     else
-        puts "Invalid answer. The script will exit in 10 seconds."
-        `sleep 10`
+        puts "Invalid answer. Script will exit."
         `exit`
+<<<<<<< HEAD
+    end        
+=======
     end
+>>>>>>> master

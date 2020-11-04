@@ -4,11 +4,11 @@ These script files are made to get things to work for you on some of the most po
 
 ***Requirements***
 
-- Fedora 32/33 Beta
+- Fedora 32
 - Ubuntu 20.04/Linux Mint 20
-- OpenSUSE Leap/Tumbleweed
 - Arch Linux/Manjaro.
 - Debian Buster/LMDE 4/SparkyLinux Nibiru.
+- Solus 4.1 Fortitude
 
 ***Dependencies***
 
@@ -16,7 +16,6 @@ The only thing you need is Ruby if you want to not do anything besides picking. 
 - Ubuntu based or Debian based distributions: `sudo apt install ruby`
 - Fedora: `sudo dnf install ruby`
 - Solus: `sudo eopkg it ruby` or `sudo eopkg install ruby`
-- OpenSUSE: `sudo zypper install ruby`
 
 ***How to use this set of scripts***
 

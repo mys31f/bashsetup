@@ -50,7 +50,7 @@ answer = gets.chomp
             elsif answer_fedora == "3"
                 `sh ./Fedora/fedora-vietnamese.sh`
                 output = `echo ?$`
-                if output = 0
+                if output == 0
                     puts "Looks like your installation went fine."
                 elsif output != 0
                     puts "Are you using Fedora 33? If so, there has been no builds done on OBS yet so we're waiting for that." 

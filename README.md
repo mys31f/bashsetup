@@ -16,6 +16,7 @@ The only thing you need is Ruby if you want to not do anything besides picking. 
 - Ubuntu based or Debian based distributions: `sudo apt install ruby`
 - Fedora: `sudo dnf install ruby`
 - Solus: `sudo eopkg it ruby` or `sudo eopkg install ruby`
+- Arch: `sudo pacman -S ruby`
 
 ***How to use this set of scripts***
 

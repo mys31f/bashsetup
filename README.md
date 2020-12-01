@@ -4,8 +4,8 @@ These script files are made to get things to work for you on some of the most po
 
 ***Requirements***
 
-- Fedora 32
-- Ubuntu 20.04/Linux Mint 20
+- Fedora 32 (Fedora 33 does not have a working Steam version other than the Flatpak version.)
+- Ubuntu/Linux Mint 
 - Arch Linux/Manjaro.
 - Debian Buster/LMDE 4/SparkyLinux Nibiru.
 - Solus 4.1 Fortitude

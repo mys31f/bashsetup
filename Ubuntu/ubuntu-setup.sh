@@ -15,7 +15,7 @@ rm google-chrome-stable_current_amd64.deb
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 sudo dpkg -i viber.deb
 rm viber.deb
-wget https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb
+wget https://dl.discordapp.net/apps/linux/0.0.13/discord-0.0.13.deb
 sudo dpkg -i discord-*.deb
 rm discord-*.deb
 wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb

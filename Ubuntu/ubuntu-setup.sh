@@ -21,7 +21,7 @@ rm discord-*.deb
 wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb
 sudo dpkg -i steam_latest.deb
 rm steam_latest.deb
-wget https://www.softmaker.net/down/softmaker-freeoffice-2018_978-01_amd64.deb
+wget https://www.softmaker.net/down/softmaker-freeoffice-2018_980-01_amd64.deb
 sudo dpkg -i softmaker-*.deb
 rm softmaker-*.deb
 wget https://d11yldzmag5yn.cloudfront.net/prod/5.3.469451.0927/zoom_amd64.deb

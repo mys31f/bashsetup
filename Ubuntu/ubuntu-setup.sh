@@ -15,18 +15,18 @@ rm google-chrome-stable_current_amd64.deb
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 sudo dpkg -i viber.deb
 rm viber.deb
-wget https://dl.discordapp.net/apps/linux/0.0.12/discord-0.0.12.deb
+wget https://dl.discordapp.net/apps/linux/0.0.13/discord-0.0.13.deb
 sudo dpkg -i discord-*.deb
 rm discord-*.deb
 wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb
 sudo dpkg -i steam_latest.deb
 rm steam_latest.deb
-wget https://www.softmaker.net/down/softmaker-freeoffice-2018_978-01_amd64.deb
+wget https://www.softmaker.net/down/softmaker-freeoffice-2018_980-01_amd64.deb
 sudo dpkg -i softmaker-*.deb
 rm softmaker-*.deb
 wget https://d11yldzmag5yn.cloudfront.net/prod/5.3.469451.0927/zoom_amd64.deb
 rm zoom_amd64.deb
 sudo apt-get install -fy
 sudo apt-get install spotify-client qbittorrent telegram-desktop wine-stable lutris obs-studio kdenlive gimp krita blender inkscape audacity neofetch -y
-neofetch 
+neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

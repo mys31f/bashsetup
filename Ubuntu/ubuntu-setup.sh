@@ -28,5 +28,5 @@ wget https://d11yldzmag5yn.cloudfront.net/prod/5.3.469451.0927/zoom_amd64.deb
 rm zoom_amd64.deb
 sudo apt-get install -fy
 sudo apt-get install spotify-client qbittorrent telegram-desktop wine-stable lutris obs-studio kdenlive gimp krita blender inkscape audacity neofetch -y
-neofetch 
+neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

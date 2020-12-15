@@ -4,10 +4,10 @@ sudo apt-get autoremove -y
 sudo apt-get install software-properties-common -y
 sudo apt-add-repository ppa:obsproject/obs-studio -y
 sudo apt-add-repository ppa:lutris-team/lutris -y
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
+sudo apt-key add https://download.spotify.com/debian/pubkey_0D811D58.gpg 
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 4773BD5E130D1D45
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo add-apt-repository "deb http://repository.spotify.com stable non-free" -y
 sudo apt-get update & sudo apt-get upgrade -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb

@@ -1,6 +1,7 @@
 #!/bin/bash
 #Will not use "set -e" due to dpkg returning dependency errors, which prevents the package from being installed unless fixed by using an "apt install -f", which will then install and configure the package afterwards. This also applies to other Debian-based derivatives as well.
 sudo apt-get remove firefox* libreoffice* -y
+sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install software-properties-common -y
 wget https://www.softmaker.net/down/softmaker-freeoffice-2018_980-01_amd64.deb
 sudo dpkg -i softmaker-freeoffice-2018_980-01_amd64.deb

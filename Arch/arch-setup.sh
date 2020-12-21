@@ -1,7 +1,10 @@
 #!/bin/bash
 sudo pacman -Syu --noconfirm
-sudo pacman -R firefox libreoffice-fresh --noconfirm
-sudo pacman -S neofetch telegram-desktop qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git --noconfirm
+sudo pacman -R firefox --noconfirm
+sudo pacman -Rs libreoffice --noconfirm
+sudo pacman -Rs libreoffice-fresh --noconfirm
+sudo pacman -Rs libreoffice-still --noconfirm
+sudo pacman -S neofetch telegram-desktop qbittorrent steam wine lutris discord obs-studio kdenlive gimp krita blender inkscape audacity git fakeroot make cmake --noconfirm
 #Installs yay
 git clone https://aur.archlinux.org/yay.git
 cd yay

@@ -11,8 +11,8 @@ wget https://dl.discordapp.net/apps/linux/0.0.13/discord-0.0.13.deb
         echo "Plese recheck your internet connection. Contact your ISP or see if your cables have gone loose."
         exit 1
     fi
-sudo dpkg -i discord-0.0.12.deb
-rm discord-0.0.12.deb
+sudo dpkg -i discord-0.0.13.deb
+rm discord-0.0.13.deb
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
   if [ $? !=0 ]; then
         echo "Plese recheck your internet connection. Contact your ISP or see if your cables have gone loose."
@@ -45,11 +45,10 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys A87FF9DF48BF1C
 echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
 wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
 sudo apt -y install gnupg2 software-properties-common
-wget -qO - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
-sudo add-apt-repository https://dl.winehq.org/wine-builds/debian/
-wget -O- -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10/Release.key | sudo apt-key add -
-echo "deb http://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10 ./" | sudo tee /etc/apt/sources.list.d/wine-obs.list
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt install -fy
-sudo apt-get install neofetch spotify-client winehq-stable qbittorrent lutris obs-studio kdenlive gimp krita inkscape audacity blender -y
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install -fy
+sudo apt-get install neofetch spotify-client wine-stable qbittorrent lutris obs-studio kdenlive gimp krita inkscape audacity blender -y
 neofetch
 echo "Thanks for using the scripts. If there are any issues, please ask me or if there are bugs, please make a report on GitHub."

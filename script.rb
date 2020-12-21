@@ -4,7 +4,7 @@ puts "What distro are you on currently?"
     puts "3. Fedora"
     puts "4. Solus"
     puts "5. Ubuntu"
-puts: "Please enter a number: "
+puts "Please enter a number: "
 answer = gets.chomp
     if answer == 1
         puts "What do you want to do at the moment?"
@@ -15,13 +15,13 @@ answer = gets.chomp
         puts "Please enter a number: "
             answer_arch = gets.chomp
             if answer_arch == 1
-                puts `sh arch-setup.sh`
+                %x|sh arch-setup.sh|
             elsif answer_arch == 2
-                puts `sh arch-nvidia.sh`
+                %x|sh arch-nvidia.sh|
             elsif answer_arch == 3
-                puts `sh arch-vietnamese.sh`                
+                %x|sh arch-vietnamese.sh|
             elsif answer_arch == 4
-                puts `sh arch-nihongo.sh`
+                %x|sh arch-nihongo.sh|
             end        
     elsif answer = 2
         puts "What do you want to do at the moment?"
@@ -32,13 +32,13 @@ answer = gets.chomp
         puts "Please enter a number: "
             answer_debian = gets.chomp
             if answer_debian == 1
-                puts `sh debian-setup.sh`
+                %x|sh debian-setup.sh|
             elsif answer_debian == 2
-                puts `sh debian-nvidia.sh`
+                %x|sh debian-nvidia.sh|
             elsif answer_debian == 3
-                puts `sh debian-vietnamese.sh`                
+                %x|sh debian-vietnamese.sh|
             elsif answer_debian == 4
-                puts `sh debian-nihongo.sh`
+                %x|sh debian-nihongo.sh|
             end        
     elsif answer = 3
         puts "What do you want to do at the moment?"
@@ -49,13 +49,13 @@ answer = gets.chomp
         puts "Please enter a number: "
             answer_fedora = gets.chomp
             if answer_fedora == 1
-                puts `sh fedora-setup.sh`
+                %x|sh fedora-setup.sh|
             elsif answer_fedora == 2
-                puts `sh fedora-nvidia.sh`
+                %x|sh fedora-nvidia.sh|
             elsif answer_fedora == 3
-                puts `sh fedora-vietnamese.sh`                
+                %x|sh fedora-vietnamese.sh|
             elsif answer_fedora == 4
-                puts `sh fedora-nihongo.sh`
+                %x|sh fedora-nihongo.sh|
             end        
     elsif answer = 4
         puts "What do you want to do at the moment?"
@@ -66,13 +66,13 @@ answer = gets.chomp
         puts "Please enter a number: "
             answer_solus = gets.chomp
             if answer_solus == 1
-                puts `sh solus-setup.sh`
+                %x|sh solus-setup.sh|
             elsif answer_solus == 2
-                puts `sh solus-nvidia.sh`
+                %x|sh solus-nvidia.sh|
             elsif answer_solus == 3
-                puts `sh solus-vietnamese.sh`                
+                %x|sh solus-vietnamese.sh|
             elsif answer_solus == 4
-                puts `sh solus-nihongo.sh`
+                %x|sh solus-nihongo.sh|
             end        
     elsif answer = 5
         puts "What do you want to do at the moment?"
@@ -83,13 +83,13 @@ answer = gets.chomp
         puts "Please enter a number: "
             answer_ubuntu = gets.chomp
             if answer_ubuntu == 1
-                puts `sh ubuntu-setup.sh`
+                %x|sh ubuntu-setup.sh|
             elsif answer_ubuntu == 2
-                puts `sh ubuntu-nvidia.sh`
+                %x|sh ubuntu-nvidia.sh|
             elsif answer_ubuntu == 3
-                puts `sh ubuntu-vietnamese.sh`                
+                %x|sh ubuntu-vietnamese.sh|
             elsif answer_ubuntu == 4
-                puts `sh ubuntu-nihongo.sh`
+                %x|sh ubuntu-nihongo.sh|
             end        
     else   
         puts "Invalid choice. Script is exiting immediately."

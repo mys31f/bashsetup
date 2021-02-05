@@ -11,8 +11,8 @@ sudo eopkg it viber*.eopkg -y;sudo rm *.eopkg
 sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/multimedia/music/spotify/pspec.xml
 sudo eopkg it spotify*.eopkg -y;sudo rm spotify*.eopkg
 wget https://www.softmaker.net/down/softmaker-freeoffice-978-amd64.tgz
-tar -xvzf softmaker-freeoffice-978-amd64.tgz
-cd softmaker-freeoffice-978-amd64
+tar -xvzf softmaker-freeoffice-982-amd64.tgz
+cd softmaker-freeoffice-982-amd64
 ./installfreeoffice
 rm -r softmaker-freeoffice-978-amd64.tgz freeoffice2018.tar.lzma installfreeoffice
 wget https://cdn.discordapp.com/attachments/538903130704838656/796102070825779250/dxvk_versions.json -P $HOME/.local/share/lutris/runtime/dxvk # Something might have gone wrong during Lutris installation that when running "lutris -d" would get an error about the list of DXVK versions.

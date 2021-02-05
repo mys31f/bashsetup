@@ -4,8 +4,8 @@ sudo apt-get remove firefox* libreoffice* xterm* transmisson* -y
 sudo apt-get install wget git cmake make xorriso fakeroot -y
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install software-properties-common -y
-wget https://www.softmaker.net/down/softmaker-freeoffice-2018_980-01_amd64.deb
-sudo dpkg -i softmaker-freeoffice-2018_980-01_amd64.deb
+wget https://www.softmaker.net/down/softmaker-freeoffice-2018_982-01_amd64.deb
+sudo dpkg -i softmaker-freeoffice-2018_982_amd64.deb
 rm softmaker-freeoffice-2018_980-01_amd64.deb
 wget https://dl.discordapp.net/apps/linux/0.0.13/discord-0.0.13.deb
 sudo dpkg -i discord-0.0.13.deb
